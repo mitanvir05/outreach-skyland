@@ -9,21 +9,22 @@ import OutreachHero from "./components/OutreachHero";
 import OutreachWorkflow from "./components/OutreachWorkflow";
 import Testimonials from "./components/Testimonials";
 import TrustedBy from "./components/TrustedBy";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 function App() {
   return (
     <div>
       <Navbar />
       <OutreachHero />
-      <TrustedBy/>
+      <WhatsAppFloat />
+      <TrustedBy />
       <OutreachFeatures />
-      <ComparisonTable/>
+      <ComparisonTable />
       <OutreachWorkflow />
       <Testimonials />
-      <FAQ />
       <Contact />
-
-      <Footer/>
+      <FAQ />
+      <Footer />
     </div>
   );
 }
